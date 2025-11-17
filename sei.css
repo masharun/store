@@ -1,27 +1,51 @@
-body{
-  background-color:bisque
-}
-         .container{
+.container{
           display:flex;
           justify-content:center;
           gap:50px;
          }
-  
+ 
+         .category{
+          width:100px;
+          height:100px;
+        margin-top:20px;
+         }
+          .category img{
+          width:150px;
+          height:150px;
+          border-radius:100%;
+         } 
 
 
-         .card{
+         .produk{
           width:16rem;
           height:360px
-        border- radius:12px
+        border- radius:100%;
         box-shadow:5px 5px 5px
         purpele;
         margin-top:20px
-        background:#3f5EFB;
         background:radial-
         gradient(circle,rgba(252,70,107,1)
         100%);)
          }
-         .card image{
+  
+         
+         .iklan{
+          width:16rem;
+          height:360px
+        border- radius:12px
+        box-shadow:5px 5px 5px;
+        margin-top:20px
+        gradient(circle,rgba(252,70,107,1)
+        100%);)
+         }
+         .iklan image{
+          width:100%;
+          height:200px;
+          bacground-color:grey;
+          overflow:hidden;
+          border-radius:15px;
+         
+         .produk image{
           width:100%;
           height:200px;
           bacground-color:grey;
@@ -29,6 +53,8 @@ body{
           border-radius:15px;
          }
          width:16re
+
+
          .btn-grad {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
          .btn-grad {
             margin: 10px;
